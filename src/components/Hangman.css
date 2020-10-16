@@ -1,0 +1,52 @@
+.Hangman {
+    width: 50%;
+    margin: auto;
+    color: black;
+}
+
+.app_name {
+    color: rebeccapurple;
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.guess_language{
+    color: rebeccapurple;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.wrong_guess{
+    position: fixed;
+    top: 12%;
+    right: 29%;
+    color:whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.current_wrong_guess {
+    color: rebeccapurple;
+    display: inline;
+}
+
+.allowed_wrong_guess{
+    color: red;
+    display: inline;
+}
+
+.of_color {
+    color: whitesmoke;
+    display: inline;
+}
+
+.button {
+    padding-top: 10px;
+    color: rebeccapurple;
+}
+
+.image_source{
+    border-top: 3px solid rebeccapurple;
+    border-left: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    border-bottom: 3px solid red;
+}
